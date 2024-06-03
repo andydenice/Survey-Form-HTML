@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Denice Survey Form</title>
+        <link href="https://fonts.cdnfonts.com/css/pp-gatwick" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/elora" rel="stylesheet">
+        <style type="text/css" media="all">
+            .container{
+                font-family: 'Montserrat', sans-serif;
+                background-color: #ffffff;
+                margin: 0 auto;
+                padding: 20px;
+                border-radius: 5px;
+                width: 700px;
+                border: 1px solid;
+                color: #462054;
+            }
+            body{
+                background-color: #F3F0FF;
+            }
+            header,main{
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+            .form-number-box{
+                border: 2px solid #462054;
+                padding: 20px;
+                position: relative;
+                text-align: center;
+                background-color: #F3F0FF;
+                font-size: small;
+                font-weight: bold;
+            }
+            .form-question-box{
+                border: 2px solid #462054;
+                padding: 12px;
+                background-color: #F3F0FF;
+                position: relative;
+                font-size: small;
+            }
+            .form-number{
+                margin-top: 20px;
+            }
+            .form-row{
+                display: grid;
+                grid-template-columns: 1fr 9fr;
+                grid-gap: 10px;
+                margin-bottom: -20px;
+            }
+            .basic-info{
+                float: right;
+                margin-top: -80px;
+                text-align: right;
+            }
+            .p-basic-info{
+                margin: 0;
+                padding: -10px;
+            }
+            .word-form{
+                float: right;
+                margin-top: -55px;
+                margin-right: 10px;
+                font-size: 150%;
+            }
+            .word-employee{
+                font-size: 140%;
+                font-family: 'PP Gatwick', sans-serif;
+            }
+            .word-fav-book{
+                margin-bottom: 5px;
+            }
+            input{
+                margin-left: 30px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <header>
+            <div class="h1">
+                <h1><span class="word-employee">EMPLOYEE <br>SURVEY</span> <span class="word-form">FORM</span>
+                </h1>
+            </div>
+            <div class="favorite-book">
+                <p class="word-fav-book">FAVORITE BOOK:_________________
+                </p>
+            </div>
+            <div class="basic-info">
+                <p class="p-basic-info">DATE:_________________
+                <br />
+                NAME:_________________
+                <br />
+                GENDER:_________________
+                <br />
+                AGE:_________________
+                </p>
+            </div>
+        </header>
+        <main>
+            <div class="form-number">
+                <div class="form-row">
+                    <p class="form-number-box"style="text-align: center; font-size: larger; padding: 10px;"><B>№</B></p>
+                    <p class="form-question-box" style="text-align: center; font-size: larger;"><b>QUESTIONS</b></p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">1</p>
+                    <p class="form-question-box"><b>How satisfied are you with your overall experience working for our company?
+                    </b><br>
+                        <input type="radio" name="question1" value="Excellent"> Excellent
+                        <input type="radio" name="question1" value="Very Good"> Very Good
+                        <input type="radio" name="question1" value="Good"> Good
+                        <input type="radio" name="question1" value="Fair"> Fair</span>
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">2</p>
+                    <p class="form-question-box"><b>Do you feel that your job responsibilities and expectations are clearly defined?
+                    </b><br>
+                        <input type="radio" name="question2" value="Excellent"> Excellent
+                        <input type="radio" name="question2" value="Very Good"> Very Good
+                        <input type="radio" name="question2" value="Good"> Good
+                        <input type="radio" name="question2" value="Fair"> Fair
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">3</p>
+                    <p class="form-question-box"><b>Do you feel that you have access to the necessary resources to perform your job effectively?
+                    </b><br>
+                        <input type="radio" name="question3" value="Excellent"> Excellent
+                        <input type="radio" name="question3" value="Very Good"> Very Good
+                        <input type="radio" name="question3" value="Good"> Good
+                        <input type="radio" name="question3" value="Fair"> Fair
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">4</p>
+                    <p class="form-question-box"><b>Do you feel valued and appreciated by your supervisor and colleagues?
+                    </b><br>
+                        <input type="radio" name="question1" value="Excellent"> Excellent
+                        <input type="radio" name="question1" value="Very Good"> Very Good
+                        <input type="radio" name="question1" value="Good"> Good
+                        <input type="radio" name="question1" value="Fair"> Fair
+                    </p>
+                    
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">5</p>
+                    <p class="form-question-box"><b>How satisfied are you with the opportunities for professional development within the company?</b>
+                        <br>
+                        <input type="radio" name="question1" value="Excellent"> Excellent
+                        <input type="radio" name="question1" value="Very Good"> Very Good
+                        <input type="radio" name="question1" value="Good"> Good
+                        <input type="radio" name="question1" value="Fair"> Fair
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">6</p>
+                    <p class="form-question-box"><b>How well does the company communicate important information and updates to employees?</b>
+                        <br>
+                        <input type="radio" name="question1" value="Excellent"> Excellent
+                        <input type="radio" name="question1" value="Very Good"> Very Good
+                        <input type="radio" name="question1" value="Good"> Good
+                        <input type="radio" name="question1" value="Fair"> Fair
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">7</p>
+                    <p class="form-question-box"><b>Do you feel that the company prioritizes work-life balance and employee well-being?</b>
+                        <br>
+                        <input type="radio" name="question1" value="Excellent"> Excellent
+                        <input type="radio" name="question1" value="Very Good"> Very Good
+                        <input type="radio" name="question1" value="Good"> Good
+                        <input type="radio" name="question1" value="Fair"> Fair
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">8</p>
+                    <p class="form-question-box"><b>How well do you feel that your skills and expertise are utilized in your current role?</b>
+                        <br>
+                        <input type="radio" name="question1" value="Excellent"> Excellent
+                        <input type="radio" name="question1" value="Very Good"> Very Good
+                        <input type="radio" name="question1" value="Good"> Good
+                        <input type="radio" name="question1" value="Fair"> Fair
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">9</p>
+                    <p class="form-question-box"><b>How often do you receive feedback on your performance and progress?</b>
+                        <br>
+                        <input type="radio" name="question1" value="Excellent"> Excellent
+                        <input type="radio" name="question1" value="Very Good"> Very Good
+                        <input type="radio" name="question1" value="Good"> Good
+                        <input type="radio" name="question1" value="Fair"> Fair
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="form-number-box">10</p>
+                    <p class="form-question-box"><b>Would you recommend our company as a good place to work to others?</b>
+                        <br>
+                        <input type="radio" name="question1" value="Excellent"> Excellent
+                        <input type="radio" name="question1" value="Very Good"> Very Good
+                        <input type="radio" name="question1" value="Good"> Good
+                        <input type="radio" name="question1" value="Fair"> Fair
+                    </p>
+                </div>
+                <div>
+                    <p style="border: 2px solid #462054;
+                    width: 99.5%;
+                    text-align: center;
+                    background-color: #F3F0FF;">
+                        <small><i><b>Thank you for taking the time to fill out this questionnaire!
+                            </b></i></small></p>
+                </div>
+            </div>
+        </main>
+        </div>
+    </body>
+</html>
